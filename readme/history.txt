@@ -1,2 +1,5 @@
 2026.11.10
+[*] fix for windows-os (thanks @badrelmers)
+
+2026.11.10
 initial

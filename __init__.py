@@ -4,6 +4,7 @@ import time
 import urllib.request
 import urllib.parse
 import json
+from typing import Tuple
 from datetime import datetime, timezone, timedelta
 from cudatext import *
 
@@ -90,7 +91,7 @@ class Command:
 
         return sign * (h * 3600 + mm * 60)
 
-    def detect_city(self) -> tuple[str, int]:
+    def detect_city(self) -> Tuple[str, int]:
         services = [
             (
                 "https://ipwho.is/",
@@ -119,7 +120,7 @@ class Command:
 
         return "", 0
 
-    def _parse_obs_time(self, t: str) -> tuple[int, int]:
+    def _parse_obs_time(self, t: str) -> Tuple[int, int]:
         parts = t.split()
         h, m = map(int, parts[0].split(":"))
         ampm = parts[1].upper() if len(parts) > 1 else ""
