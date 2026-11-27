@@ -1,7 +1,7 @@
 Plugin for CudaText
-Shows weather in console and status-bar
+Shows weather in sidebar
 
-- "Plugins / Weather / Update"
+- "Plugins / Weather / Update" (or by context-menu in sidebar-block of Weather)
 - "Options / Settings-plugins / Weather / Config"
 
 - Auto-update on start CudaText: 3 hours (cache)
@@ -9,7 +9,6 @@ Shows weather in console and status-bar
 
 TODO:
 - add city manually
-- add output selection to the console, status-bar or popup-window
 
 Author: ildar r. khasanshin (@ildarkhasanshin)
 License: MIT

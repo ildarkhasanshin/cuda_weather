@@ -1,2 +1,1 @@
-# cuda_weather
-Plugin for CudaText: shows weather in console and status-bar
+Plugin for CudaText: shows weather in sidebar

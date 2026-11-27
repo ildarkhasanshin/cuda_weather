@@ -1,13 +1,13 @@
 [info]
 title=Weather
-desc=Shows weather in console and status-bar
+desc=Shows weather in sidebar
 type=cudatext-plugin
 subdir=cuda_weather
 homepage=https://github.com/ildarkhasanshin/cuda_weather
 
 [item1]
 section=events
-events=on_start
+events=on_start,on_init_plugins_menu
 
 [item2]
 section=commands

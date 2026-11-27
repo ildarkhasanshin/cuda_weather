@@ -1,3 +1,6 @@
+2026.11.27
+[*] now info shows in sidebar
+
 2026.11.10
 [*] fix for windows-os (thanks @badrelmers)
 
